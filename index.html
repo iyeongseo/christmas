@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>상록구의 잠 못 이루는 밤</title>
+        <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            @font-face {
+                font-family: 'Pretendard-Regular';
+                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+            }
+            .header {
+                width: 100vw; height: 100vh;
+                background-color: white;
+            }
+            .logo {
+                width: 100vw; height: 50vh;
+                background-image: url('./image/sleepness.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+            }
+            .info {
+                width: 100vw; height:50vh;
+                background-image: url('./image/info.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+            }
+            .content {
+                background-color: #b30000;
+                padding: 50px 0;
+            }
+            .text {
+                text-align: center;
+                font-family: 'Pretendard-Regular';
+                width: 100vw; height: auto;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .text > p {
+                margin: 25px;
+                color: white;
+            }
+            .text > img {
+                margin: 20px;
+                width: 400px;
+                height: auto;
+            }
+            .footer {
+                font-family: 'Pretendard-Regular';
+                width: 100vw; height: auto;
+                font-size: 0.7em;
+                color:grey;
+                background-color: #eeeeee;
+                text-align: center;
+                padding: 30px 0px;
+            }
+            .footer > p {
+                margin: 10px;
+            }
+            .button {
+                padding-top: 60px;
+                height: 50px;
+            }
+            .button > a {
+                border-radius: 10px;
+                padding: 30px;
+                background-color: #296011;
+                text-decoration: none;
+                color: white;
+            }
+            #secret {
+                width: 300px;
+            }
+            #after > a{
+                background-color: #683705;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo"></div>
+                <div class="info"></div>
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>안녕하세요.</p>
+                    <img src="./image/santa.png">
+                    <p>공굴려머리굴려의 로켓단, 아니 클준단입니다.</p>
+                    <p>크리스마스 이브를 위해 머리를 좀 굴려봤습니다.</p>
+                    <p>&nbsp;</p>
+                    <p>영화 <시애틀의 잠 못 이루는 밤>에서는</p>
+                    <p>조나의 깜찍한 라디오 사연으로 두 주인공의 이야기가 시작되는데요.</p>
+                    <p>여러분도 조나처럼 클준단에게 사연을 보내주세요!</p>
+                    <p>&nbsp;</p>
+                    <p>평소에 하고 싶었던 말, 하기 쑥쓰러운 말 등</p>
+                    <p>저희 클준단에게 사연을 보내주시면</p>
+                    <p>크리스마스 이브 밤, 대신 전해드립니다!</p>
+                    <img id="secret" src="./image/secret.JPG">
+                    <p>여러분이 어떤 메세지를 보냈는지는</p>
+                    <p>클준단조차 알지 못하니 편하게 보내주세요.</p>
+                    <p>ps, 신청곡도 받습니다.</p>
+                    <div class="button">
+                        <a href="">사연 보내기</a>
+                    </div>
+                    <div class="button" id="after">
+                        <a href="afterparty.html">
+                            어... 근데 크리스마스 이브에 잠을 못 이루면 크리스마스에는 뭘하나요?
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>CopyRight@ 공굴려머리굴려 클준단</p>
+            <p>로사, 로이, 나옹이다옹</p>
+        </div>
+    </body>
+</html>
